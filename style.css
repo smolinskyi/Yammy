@@ -1,0 +1,175 @@
+
+body{
+    max-width: 1920px;
+    margin: 0;
+    font-family: Montserrat;
+    }
+    .header{
+        margin-bottom: 40px;
+        padding-left: 20px;
+        width: 100%;
+        font-size: 6px;
+        font-family: Montserrat;
+        box-sizing: border-box;
+        display: inline-flex;
+        justify-content: space-around;
+    }
+    .nav{
+        justify-content: end;
+    }
+    .container{
+        margin: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .text{
+        width: 300px;
+        box-sizing: content-box;
+        font-size: 12px;
+        color: #774E2E;
+        text-align: center;
+        /* flex-grow: 1; */ */
+        background-color: aliceblue;
+    }
+    .link{
+        width: 300px;
+    }
+    #item{
+        margin: 0;
+        background-color: rgb(238, 234, 181);
+        front-size: 20px;
+        color: rgb(178, 94, 10);
+        text-align: center;
+    }
+    #item1{
+        flex-shrink: 0;
+        color: var(--Orange, #F37F34);
+        font-family: Montserrat;
+        font-size: 49px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 100% /* 220px */; */
+        letter-spacing: 2px;
+        line-height: 1.2;
+    }
+    #item2{
+        flex-shrink: 0;
+        color: var(--Brown, #774E2E);
+        font-family: Montserrat;
+        font-size: 49px;
+        font-style: normal;
+        font-weight: bolder;
+        /* line-height: 100% /* 220px */; */
+        letter-spacing: 2px;
+        line-height: 1.2;
+    }
+    #item3{
+        background-color: #774E2E;
+        justify-content: left ;
+    }
+    #item4{
+        margin: 0;
+        padding: 20px;
+        color: #F37F34;
+        background: var(--Backgraund, #FFF9EA);
+        font-size: 40px;
+        padding: 20px;
+        text-align: center;
+    }
+    .container1{
+        margin: 10px;
+        width: 100%;
+        background: var(--Backgraund, #FFF9EA);
+        box-sizing: border-box;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .outer1 {
+        width: 200px;
+        color: #774E2E;
+        font-size: 12px;
+        background-color: white;
+        position: relative;
+    }
+    .inner1{
+        width: 200px;
+        height: 100px;
+        background-image: url('../../img/Знімок\ екрана\ 2023-10-07\ 142352.png')
+    }
+    .outer2 {
+        width: 200px;
+        color: #774E2E;
+        font-size: 12px;
+        background-color: white;
+        /* position: absolute; */
+        /* left: 100px; */
+        /* top: 50px; */
+        /* прибрати рядок нижче залишивши в .inner властивості position: absolute; top: 0; left: 0; */
+        position: relative;
+    }
+    .inner2{
+        width: 200px;
+        height: 100px;
+        flex-shrink: 0;
+        background-image: url('../../img/Знімок\ екрана\ 2023-10-07\ 142424.png');
+    }
+    .outer3{
+        width: 200px;
+        color: #774E2E;
+        background-color:  white;
+        font-size: 12px;
+        /* position: absolute; */
+        /* left: 100px; */
+        /* top: 50px; */
+        /* прибрати рядок нижче залишивши в .inner властивості position: absolute; top: 0; left: 0; */
+        position: relative;
+    }
+    .inner3{
+        width: 200px;
+        height: 100px;
+        background-image: url('../../img/Знімок\ екрана\ 2023-10-07\ 142451.png')
+    }
+    .container2{
+        margin: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .text1{
+        width: 300px;
+        border: 1px solid rgb(249, 245, 245);
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 12px;
+        /* flex-grow: 1; */
+    }
+    #item5{
+        color: #774E2E;
+        font-size: 12px;
+        text-align: center;
+    }
+    #item6{
+        olor: #774E2E;
+        font-size: 12px;
+        text-align: center;
+    }
+    #item7{
+        olor: #774E2E;
+        font-size: 12px;
+        text-align: center;
+    }
+    .link1{
+        width: 300px;
+        /* background-image: url('./img/Знімок\ екрана\ 2023-10-07\ 185703.png'); */
+    }
+    .footer{
+        background-color:  rgb(178, 94, 10);
+        padding: 5px;
+        text-align: center;
+    }
